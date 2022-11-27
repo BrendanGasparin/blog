@@ -15,6 +15,7 @@ h1 {
 
 h2, h3 {
   font-family: "Racing Sans One", monospace;
+  line-height: 32px;
 }
 
 h2 {
@@ -27,4 +28,8 @@ h3 {
 
 .main-content {
   padding: 0 10%;
+}
+
+p {
+    line-height: 32px;
 }
