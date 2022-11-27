@@ -13,6 +13,10 @@ h1 {
   line-height: 64px;
 }
 
+h2, h3 {
+  font-family: "Racing Sans One", monospace;
+}
+
 h2 {
   font-size: 22px;
 }
