@@ -9,6 +9,8 @@ h1, h2, h3 {
 
 h1 {
   font-family: 'Pacifico', cursive;
+  text-align: center;
+  line-height: 64px;
 }
 
 h2 {
@@ -17,4 +19,8 @@ h2 {
 
 h3 {
   font-size: 18px;
+}
+
+.main-content {
+  padding: 0 10%;
 }
