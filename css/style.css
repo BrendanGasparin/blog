@@ -109,6 +109,22 @@ p {
   float: right;
 }
 
+img.javascript-code {
+  width: 160px;
+  height: auto;
+}
+
+.date {
+  font-weight: bold;
+  margin: 10px 0 0 0;
+}
+
+.time {
+  font-style: italic;
+  font-weight: bold;
+  margin: 2px 0 2px 0;
+}
+
 .signature {
   font-family: Courgette, cursive;
   margin-top: 24px;
@@ -116,12 +132,6 @@ p {
   text-align: right;
   font-size: 22px;
   font-weight: bold;
-}
-
-.time {
-  font-style: italic;
-  font-weight: bold;
-  margin: 2px 0 0 0;
 }
 
 .sub-heading {
@@ -178,6 +188,11 @@ footer {
     flex: 1;
   }
 
+  img.javascript-code {
+    width: 640px;
+    height: auto;
+  }
+
   .blog {
     flex: 5;
     border-left: 1px solid red;
@@ -189,7 +204,7 @@ footer {
 
   .blog li {
     margin-left: 5%;
-    margin-right: 4%;
+    margin-right: 5%;
   }
 }
   
