@@ -102,7 +102,8 @@ p {
 }
 
 .blog img {
-  padding: 24px 0 24px 32px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .right-image {
@@ -112,7 +113,7 @@ p {
 }
 
 img.javascript-code {
-  width: 320px;
+  width: 240px;
   height: auto;
 }
 
@@ -193,6 +194,10 @@ footer {
   img.javascript-code {
     width: 640px;
     height: auto;
+  }
+
+  .blog img {
+    padding: 24px 0 24px 32px;
   }
 
   .right-image {
