@@ -54,7 +54,7 @@ table {
 
 * {
   font-family: 'Verdana', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 body {
@@ -179,6 +179,11 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+  * {
+    font-size: 18px;
+  }
+
   main {
     display: flex;
   }
