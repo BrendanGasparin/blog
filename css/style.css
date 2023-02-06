@@ -106,7 +106,9 @@ p {
 }
 
 .right-image {
-  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img.javascript-code {
@@ -191,6 +193,10 @@ footer {
   img.javascript-code {
     width: 640px;
     height: auto;
+  }
+
+  .right-image {
+    float: right;
   }
 
   .blog {
