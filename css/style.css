@@ -67,7 +67,7 @@ header {
 
 h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 28px;
   font-weight: bold;
   padding: 28px 0;
   font-family: 'Courgette', cursive;
@@ -103,9 +103,6 @@ p {
 
 .blog img {
   padding: 24px 0 24px 32px;
-
-  /*-top: 24px;
-  padding-bottom: 24px; */
 }
 
 .right-image {
@@ -171,6 +168,10 @@ footer {
 @media only screen and (min-width: 768px) {
   main {
     display: flex;
+  }
+
+  h1 {
+    font-size: 48px;
   }
       
   nav {
