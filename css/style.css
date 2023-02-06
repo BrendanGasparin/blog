@@ -82,6 +82,7 @@ nav h2 {
 
 h2 {
   padding: 18px 0;
+  margin: 0;
   font-weight: bold;
 }
 
@@ -97,16 +98,64 @@ nav li:hover {
 
 p {
   padding: 10px 0;
+  line-height: 1.5;
+}
+
+.blog img {
+  padding: 24px 0 24px 32px;
+
+  /*-top: 24px;
+  padding-bottom: 24px; */
+}
+
+.right-image {
+  float: right;
+}
+
+.signature {
+  font-family: Courgette, cursive;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.time {
+  font-style: italic;
+  font-weight: bold;
+  margin: 2px 0 0 0;
+}
+
+.sub-heading {
+  font-weight: bold;
+  margin: 0 0 2px 0;
+  font-size: 28px;
+  font-family: 'Courgette', cursive;
 }
 
 .blog {
-  padding: 10px 40px;
+  padding: 0px 40px 10px 40px;
   border-left: 1px solid red;
+}
+
+.blog ul {
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.blog li {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.blog ul, .blog li {
+  list-style: disc inside;
+  line-height: 1.8;
 }
 
 footer {
     border-top: 1px solid red;
-    border-bottom: 1px solid red;
     padding: 28px 20px;
     font-size: 24px;
 }
@@ -131,6 +180,15 @@ footer {
   .blog {
     flex: 5;
     border-left: 1px solid red;
+  }
+
+  .blog ul, .blog li {
+    list-style: outside;
+  }
+
+  .blog li {
+    margin-left: 5%;
+    margin-right: 4%;
   }
 }
   
